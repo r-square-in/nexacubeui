@@ -20,5 +20,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Nexa Cube UI"
+include(":app")
 include(":nexaCubeLibrary")
- 
