@@ -53,3 +53,19 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     debugImplementation(libs.androidx.ui.tooling)
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            register<MavenPublication>("release") {
+
+                from(components["release"])
+
+                groupId = "io.rsquare"
+                artifactId = "nexa-cube-ui"
+                version = "0.1.1-alpha"
+
+            }
+        }
+    }
+}
