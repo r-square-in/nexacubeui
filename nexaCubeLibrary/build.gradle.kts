@@ -61,7 +61,7 @@ afterEvaluate {
 
                 from(components["release"])
 
-                groupId = "io.rsquare"
+                groupId = "com.github.r-square-in"
                 artifactId = "nexa-cube-ui"
                 version = "0.1.1-alpha"
 
