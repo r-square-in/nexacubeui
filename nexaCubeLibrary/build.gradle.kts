@@ -63,7 +63,7 @@ afterEvaluate {
 
                 groupId = "com.github.r-square-in"
                 artifactId = "nexa-cube-ui"
-                version = "0.1.1-alpha"
+                version = "0.1.9-alpha"
 
             }
         }
